@@ -7,8 +7,6 @@ client.DefaultRequestHeaders.Accept.Add(
     new MediaTypeWithQualityHeaderValue("application/json"));
 
 await ProcessJsonAsync(client);
-//
-
 
 static async Task ProcessJsonAsync(HttpClient client)
 {
